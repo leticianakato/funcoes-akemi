@@ -62,11 +62,11 @@ const perguntas = [
     },
 
      {
-        enunciado: "A pessoa que você ajudou/ignorou era uma médica que sabia de tudo sobre esses seres, pois era a doutora que havia descoberto a cura para o cãncer, mas que causava danos gravíssimos ao cérebro, transformando aqueles que adquiriram ao medicamento em zumbis. De acordo com sua decisão anterior, você decidiu o futuro de toda humanidade, o que você escolheu?", 
+        enunciado: "A pessoa que você ajudou/ignorou era uma médica que sabia de tudo sobre esses seres, pois era a doutora que havia descoberto a cura para o câncer, mas que causava danos gravíssimos ao cérebro, transformando aqueles que adquiriram ao medicamento em zumbis. De acordo com sua decisão anterior, você decidiu o futuro de toda humanidade, o que você escolheu?", 
     alternativas: [
                         {
                 texto:  "Salvei a médica e juntos(as) estamos em busca de uma cura.",
-                afirmacao: "Por sorte, a mulher que você salvou era a médica que descobriu a cura para o câncer, e ela sabia perfeitamente onde tinha errado, assim sabia como obter a cura. No fim, vocês dois(uas) salvaram a humanidade de um apocalipse zumbi! Porém, ops, você acordou com seu alarme tocando, e percebeu que no fim tudo foi um sonho OBS: Para de ter síndrome de protagonista!"
+                afirmacao: "Por sorte, a mulher que você salvou era a médica que descobriu a cura para o câncer, e ela sabia perfeitamente onde tinha errado, assim sabia como obter a cura. No fim, vocês dois(uas) salvaram a humanidade de um apocalipse zumbi! Porém, ops, você acordou com seu alarme tocando, e percebeu que no fim tudo foi um sonho! OBS: Para de ter síndrome de protagonista."
             },
             {
                 texto: "Deixei a médica.",
