@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Ficar desconfiado(a) e pesquisar sobre os resultados do tratamento.",
-                afirmacao: "Ficou com um pé atrás sobre a notícia, pois havia sido liberada sem as medidas necessárias de estudos para um medicamento que cura uma doença tão séria capaz de afetar todo o organismo."
+                afirmacao: "Ficou com um pé atrás sobre a notícia relacionada a cura para o câncer, pois havia sido liberada sem as medidas necessárias de estudos para um medicamento que cura uma doença tão séria capaz de afetar todo o organismo."
             }
     ]
 },
@@ -101,14 +101,14 @@ function mostraAlternativas(){
 }
 
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacoes;
-    historiaFinal += afirmacoes + " ";
+    const afirmacao = opcaoSelecionada.afirmacao;
+    historiaFinal += afirmacao + " ";
          atual++,
          mostraPergunta();
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2222...";
+    caixaPerguntas.textContent = "Em um lindo dia em um apocalipse zumbi...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
