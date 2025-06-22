@@ -65,7 +65,7 @@ const perguntas = [
         enunciado: "A pessoa que você ajudou/ignorou era uma médica que sabia de tudo sobre esses seres, pois era a doutora que havia descoberto a cura para o cãncer, mas que causava danos gravíssimos ao cérebro, transformando aqueles que adquiriram ao medicamento em zumbis. De acordo com sua decisão anterior, você decidiu o futuro de toda humanidade, o que você escolheu?", 
     alternativas: [
                         {
-                texto:  "Salvei a médica e juntos(as) buscamos uma cura.",
+                texto:  "Salvei a médica e juntos(as) estamos em busca de uma cura.",
                 afirmacao: "afirmação"
             },
             {
