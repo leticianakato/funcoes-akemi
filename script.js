@@ -10,11 +10,11 @@ const perguntas = [
     alternativas: [
         {
                 texto: "Ficar maravilhado(a) e procurar espalhar a notícia!", 
-                afirmacao: "afirmação"
+                afirmacao: "Ficou encantado(a) com a notícia da descoberta para a cura do câncer, sem se preocupar com sua eficácia ou efeitos colaterais."
             },
             {
-                texto: "Ficar desconfiado(a) e aguardar sobre os resultados do tratamento.",
-                afirmacao: "afirmação"
+                texto: "Ficar desconfiado(a) e pesquisar sobre os resultados do tratamento.",
+                afirmacao: "Ficou com um pé atrás sobre a notícia, pois havia sido liberada sem as medidas necessárias de estudos para um medicamento que cura uma doença tão séria capaz de afetar todo o organismo."
             }
     ]
 },
@@ -24,11 +24,11 @@ const perguntas = [
     alternativas: [
          {
                 texto: "Corre com a multidão.", 
-                afirmacao: "afirmação"
+                afirmacao: "Entrou em desespero em meio a uma situação de risco e correu para onde todos estavam indo."
             },
             {
                 texto: "Volta para casa e procura entender o que está acontecendo.",
-                afirmacao: "afirmação"
+                afirmacao: "Se manteve calmo(a) e tentou voltar para casa onde sabia que era seguro."
             }
     ]
     },
@@ -38,11 +38,11 @@ const perguntas = [
     alternativas: [
         {
                 texto: "Continua correndo.", 
-                afirmacao: "afirmação"
+                afirmacao: "O desespero tomou conta de você e não conseguia fazer mais nada além de correr."
             },
             {
                 texto: "Procura um abrigo mais próximo possível.",
-                afirmacao: "afirmação"
+                afirmacao: "Após essa situação desesperadora, entendeu que não era possível voltar para casa, portanto, tentou buscar um lugar mais próximo."
             }
     ]
     },
@@ -52,11 +52,11 @@ const perguntas = [
     alternativas: [
                 {
                 texto:  "Tenta ajudar.", 
-                afirmacao: "afirmação"
+                afirmacao: "Naquele caos, mantendo a calma, escolheu ajudar a alguém que estava prestes a ser atacada."
             },
             {
                 texto:  "Continua fugindo.",
-                afirmacao: "afirmação"
+                afirmacao: "O medo tomou conta do seu corpo, você deixa a pessoa para trás, pois seu corpo só pensa em si nesse momento."
             }
     ]
     },
@@ -66,11 +66,11 @@ const perguntas = [
     alternativas: [
                         {
                 texto:  "Salvei a médica e juntos(as) estamos em busca de uma cura.",
-                afirmacao: "afirmação"
+                afirmacao: "Por sorte, a mulher que você salvou era a médica que descobriu a cura para o câncer, e ela sabia perfeitamente onde tinha errado, assim sabia como obter a cura. No fim, vocês dois(uas) salvaram a humanidade de um apocalipse zumbi! Porém, ops, você acordou com seu alarme tocando, e percebeu que no fim tudo foi um sonho OBS: Para de ter síndrome de protagonista!"
             },
             {
                 texto: "Deixei a médica.",
-                afirmacao: "afirmação"
+                afirmacao: "Você deixou a única pessoa que poderia salvar a humaniade e agora o mundo está em meio a um apocalipse zumbi. Todos aqueles que você conhece morreram e agora, em meio a esse desastre, você também virou zumbi! Porém, ops, náo se preocupe, seu alarme está tocando e você percebe que tudo foi um sonho, ainda bem!"
             }
     ]
     },
@@ -108,7 +108,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2025...";
+    caixaPerguntas.textContent = "Em 2222...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
